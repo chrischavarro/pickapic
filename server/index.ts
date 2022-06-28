@@ -81,7 +81,6 @@ const resolvers = {
       _: any,
       { file }: { file: Promise<UploadedFileResponse> }
     ) => {
-      console.log("upload", file);
       const { createReadStream, filename, mimetype, encoding } = await file;
       const stream = createReadStream();
       const out = require("fs").createWriteStream(`./uploads/${filename}`);
