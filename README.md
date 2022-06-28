@@ -16,7 +16,7 @@ To run the server, navigate to the `server` folder and run
 
 ### `yarn start`
 
-In the `src` directory, you can run:
+In the root directory, you can run:
 
 ### `yarn start`
 

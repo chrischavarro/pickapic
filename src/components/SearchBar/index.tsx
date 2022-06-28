@@ -21,6 +21,7 @@ const SearchBar = ({
         placeholder="Search images..."
         onChange={onChange}
         value={searchTerm}
+        onEnter={onSearch}
       />
       <Button onClick={onSearch}>Search</Button>
     </SearchBarWrapper>
